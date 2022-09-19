@@ -4,6 +4,9 @@
  A Java Console Application of a Battle Ship Game. Project was undertaken to practice mutli-dimensional array; 2D array.
  - Procedural programming paradigm employed for this project.
  
+ <sup><b>Note: To run application, simply download 'BattleShipGame.jar' & execute "java -jar BattleShipGame.jar" in your command-line interface.</b></sup>
+ </br><sup><b><i>=> eg. C:\Users\Anon\Downloads> java -jar BattleShipGame.jar</i></b></sup>
+ 
  
  <b>Project Brief</b>
  
