@@ -1,13 +1,8 @@
 package com.hafizRSoftDev.classes;
 
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner14;
 
 /*
  * GAME PHASES
@@ -31,7 +26,7 @@ public class BattleShipSimulator {
 	
 	public static void main(String[] args) {	
 //	PHASE 1 - INTRODUCTION    
-		System.out.println("**** Welcome to Battle Ships game ****\n\nRight now, the sea is empty");
+		System.out.println("**** Welcome to the Battleship Game ****\n\nRight now, the sea is empty");
 		generateSeascape();
 		
 //	PHASE 2 - DEPLOYMENT  
@@ -235,9 +230,9 @@ public class BattleShipSimulator {
 		}
 	//	GAME PHASE - END GAME
 		if (playerScore == 0)
-			System.out.println("\nYOU LOST!");
+			System.out.println("\nYOU'VE LOST!");
 		else
-			System.out.println("\nHOORAY! YOU WIN THE BATTLE!!! :)");
+			System.out.println("\nHOORAY! YOU'VE WON THE BATTLE!!! :)");
 	}
 
 	public static void printHorizontalLine() {
@@ -272,6 +267,4 @@ public class BattleShipSimulator {
 		print_X_axis();
 		System.out.println("\n\n");
 	}
-
 }
-	
